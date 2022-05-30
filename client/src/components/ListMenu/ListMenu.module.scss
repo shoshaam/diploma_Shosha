@@ -1,0 +1,21 @@
+.list {
+  display: flex;
+  justify-content: center;
+  width: 90%;
+}
+.ul_container {
+  list-style-type: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding-left: 0px;
+
+  .item {
+    border: 1px solid #777777;
+    padding: 10px;
+    border-radius: 5px;
+    margin: 0 10px 10px 0;
+    font-size: 17px;
+    color: #333;
+  }
+}

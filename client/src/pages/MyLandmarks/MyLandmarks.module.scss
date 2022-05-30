@@ -1,0 +1,42 @@
+.deleteCard {
+  position: absolute;
+  bottom: 40px;
+  right: 40px;
+}
+.centered {
+  margin-top: 80px;
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+.title {
+  width: 100%;
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  font-family: "Roboto", Arial;
+  color: #333333;
+  align-items: center;
+  font-weight: 400;
+  font-size: 22px;
+  margin: 10px;
+}
+.centered_list {
+  margin-bottom: 30px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+.pagination {
+  padding-bottom: 30px;
+
+  li button {
+    background-color: rgb(230, 230, 230) !important;
+  }
+  li button[aria-current='true'] {
+    background-color: #305f76 !important;
+  }
+}
